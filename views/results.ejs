@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Ingredient Scraper</title>
+    <link href="/assets/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Ingredient Scraper</h1>
+    <form action="http://localhost:5000/" method="get">
+        <div id = "submitDiv">
+            <button type = "button" id = "copy"  onclick="copyContent()">Copy</button>
+            <input type="submit"  id = "submit" value="Back"/>
+            <div id = "ingredients">
+                <%- list %>
+    
+            </div>
+
+            <script>
+                let text = document.getElementById('ingredients').innerText;
+                const copyContent = async () => {
+                    
+                  try {
+                    await navigator.clipboard.writeText(text);
+                    console.log('Content copied to clipboard');
+                  } catch (err) {
+                    console.error('Failed to copy: ', err);
+                  }
+                }
+              </script>
+
+        </div>
+        
+    </form>
+</body>
+
+</html>

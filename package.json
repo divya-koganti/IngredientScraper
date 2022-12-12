@@ -1,16 +1,20 @@
 {
-  "name": "ingredientsscraper",
+  "name": "ingredientscraper",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "ingredientScraperServer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.1",
-    "express": "^4.18.1"
+    "cheerio": "^1.0.0-rc.12",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "superagent": "^8.0.6"
   }
 }
