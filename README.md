@@ -7,4 +7,7 @@ Won the OpenSourcery hacktober best tool and UI!
 
 
 
-[video.webm](https://user-images.githubusercontent.com/96089075/207130133-434992b9-7d2b-4d45-9c50-989b899fa636.webm)
+
+
+https://user-images.githubusercontent.com/96089075/207130432-d6a68bde-9663-43e0-8158-297ba6275c64.mp4
+
